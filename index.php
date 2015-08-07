@@ -101,9 +101,11 @@ try {
 								</ul>
 								<div class="tab-content" style="font-family:arial,sans-serif;">
  								  	<div id="tab1" class="tab-pane fade in active">
- 								    	<h3>Input1</h3>
-  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-  								 	</div>
+ 								    	'); 
+ 								    	include('input.php');
+ 							echo('
+ 								    
+ 								    </div>
  								  	<div id="tab2" class="tab-pane fade">
  								    	<h3>Input2</h3>
   								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
