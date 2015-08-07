@@ -86,6 +86,7 @@ try {
 							</form>
 							</tr>
 							');
+						// If good, proceed with the tabs.
 						} else {
 						
 						
