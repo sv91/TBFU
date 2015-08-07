@@ -17,6 +17,9 @@ try {
 	<head>
 		<meta charset="utf-8" />
 		<title>Travel Budget Follow Up</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
 	
 	<!-- Body -->
@@ -70,7 +73,7 @@ try {
 						} 
 						
 						// If not good, ask to log in.
-						if(!$good){
+						/*if(!$good){
 							echo('<td><p><u>Please log in:</u><br /></p><br /></td>
 							<tr>
 							<form action="login.php" method="post">
@@ -87,13 +90,40 @@ try {
 							</tr>
 							');
 						// If good, proceed with the tabs.
-						} else {
+						} else {*/
+							echo('
+								<ul class="nav nav-tabs" style="font-family:arial,sans-serif;">
+									<li class="active"><a data-toggle="tab" href="#tab1" style="color:#cf8888">Input</a></li>
+									<li><a data-toggle="tab" href="#tab2" style="color:#cf8888">Export</a></li>
+									<li><a data-toggle="tab" href="#tab3" style="color:#cf8888">Update</a></li>
+									<li><a data-toggle="tab" href="#tab4" style="color:#cf8888">Follow Up</a></li>
+									<li><a data-toggle="tab" href="#tab5" style="color:#cf8888">State</a></li>
+								</ul>
+								<div class="tab-content" style="font-family:arial,sans-serif;">
+ 								  	<div id="tab1" class="tab-pane fade in active">
+ 								    	<h3>Input1</h3>
+  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  								 	</div>
+ 								  	<div id="tab2" class="tab-pane fade">
+ 								    	<h3>Input2</h3>
+  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  								  	</div>
+ 								  	<div id="tab3" class="tab-pane fade">
+ 								    	<h3>Input</h3>
+  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  								  	</div>
+ 								  	<div id="tab4" class="tab-pane fade">
+ 								    	<h3>Input</h3>
+  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  								  	</div>
+ 								  	<div id="tab5" class="tab-pane fade">
+ 								    	<h3>Input</h3>
+  								    	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  								  	</div>
+ 								 </div>
+						')
 						
-						
-						
-						
-						
-						}
+				//		}
 						
 						?>
 						
