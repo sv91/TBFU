@@ -1,4 +1,4 @@
-<form name="formu" action="add.php" method="post">
+<form name="formu" action="input2.php" method="post">
 <h3>Ajouter un nouveau voyage:</h3>
 <div style="padding: 20px 0px;">
 	<div style="padding: 0px 30px; float:left;">Nom: <input type="text" name="name" /></div>
